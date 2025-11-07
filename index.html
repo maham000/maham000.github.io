@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Maham's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Maham’s Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, I'm Maham!</h1>
-  <p>Welcome to my job search portfolio.</p>
+  <header>
+    <h1>Maham <span>Portfolio</span></h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m Maham. I’m looking for exciting opportunities and like to solve problems. Here’s a bit about me and my work.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>A short description of your project goes here.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>An awesome thing you built or contributed to.</p>
+        </div>
+        <!-- Add more project cards as you get more work! -->
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <a class="resume-btn" href="YOUR_RESUME_LINK.pdf" target="_blank">View My Resume</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:YOUR_EMAIL@email.com">YOUR_EMAIL@email.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Maham
+  </footer>
 </body>
 </html>
